@@ -1,0 +1,19 @@
+{
+    "name": "Strapi WebNote Keeper",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "Jay Bharadia",
+    "description": "Strapi WebNote Keeper for storing notes in strapi.",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_title": "Strapi WebNote Keeper",
+        "default_popup": "index.html"
+    },
+    "host_permissions": ["http://*/*", "https://*/*"],
+    "permissions": ["activeTab", "storage", "tabs"]
+}
